@@ -2,16 +2,27 @@ main#home{
     background-color: var(--cor1);
 }
 
+
+
 main#home > h1{
     text-align: center;
     font-weight: bolder;
     font-size: 2em;
+    padding-top: 10px;
+    color: white;
 }
+
 
 main#home > p{
     text-align: center;
     font-weight: bolder;
     font-size: 1em;
+    padding-bottom: 10px;
+    color: white;
+}
+
+section#cursos{
+    padding-bottom: 20px;
 }
 
 article.carta {
@@ -21,7 +32,6 @@ article.carta {
     border: 1px solid black;
     margin: 20px auto;
     background-color: white;
-    
 }
 
 article.carta > h2 {
@@ -39,4 +49,24 @@ div.carta{
     width: 300px;
     height: 300px;
     border-bottom: 1px solid black;
+}
+
+div#imagemcarta1 {
+    background-image: url('../imagens/htmlcss-vip-mod1-300x300.jpg');
+    background-repeat: no-repeat;
+}
+
+div#imagemcarta2 {
+    background-image: url('../imagens/htmlcss-vip-mod3-300x300.jpg');
+    background-repeat: no-repeat;
+}
+
+div#imagemcarta3 {
+    background-image: url('../imagens/htmlcss-vip-mod3-300x300.jpg');
+    background-repeat: no-repeat;
+}
+
+div#imagemcarta4 {
+    background-image: url('../imagens/htmlcss-mod4-300x300.jpg');
+    background-repeat: no-repeat;
 }
