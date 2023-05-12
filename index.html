@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./global.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="css/media-query.css">
+    <link rel="stylesheet" href="./css/home.css">
 
 </head>
 <body onresize="mudouTamanho()">
@@ -17,19 +18,21 @@
         <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
             <menu id="itens">
                 <ul id="ulprincipal">
-                    <li class="liprincipal" onclick="chamarHtml('conteudo','./html/cursos/cursos.html')"><p>Home</p></li>
-                    <li class="liprincipal" onclick="chamarHtml('conteudo','./html/cursos/cursos.html')"><p>Cursos</p></li>
-                    <li class="liprincipal" onclick="chamarHtml('conteudo','./html/cursos/cursos.html')"><p>Redes Sociais</p></li>
-                    <li class="liprincipal" onclick="chamarHtml('conteudo','./html/cursos/cursos.html')"><p>Sobre mim</p></li>
+                    <li class="liprincipal" onclick="chamarHtml('conteudo','./html/home.html')"><p>Home</p></li>
+                    <li class="liprincipal" onclick="chamarHtml('conteudo','./html/cursos.html')"><p>Cursos</p></li>
+                    <li class="liprincipal" onclick="chamarHtml('conteudo','./html/cursos.html')"><p>Redes Sociais</p></li>
+                    <li class="liprincipal" onclick="chamarHtml('conteudo','./html/cursos.html')"><p>Sobre mim</p></li>
                 </ul>
             </menu>
     </header>
     <main>
-        <div id="conteudo"></div>   
+        <div id="conteudo"></div>  
+
     </main>
+
     <script src="biblioteca.js"></script>
     <script id="tela">
-        chamarHtml('conteudo', './html/cursos/cursos.html');
+        chamarHtml('conteudo', './html/home.html');
     </script>
 </body>
 </html>
