@@ -1,5 +1,5 @@
 main#home{
-background-color: var(--cor1);
+    background-color: var(--cor1);
 }
 
 main#home > h1{
@@ -8,17 +8,30 @@ main#home > h1{
     font-size: 2em;
 }
 
-section#cursos{
-    =
+main#home > p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1em;
 }
 
 article.carta {
     width: 300px;
-    height: 400px;
+    height: auto;
     margin: auto;
     border: 1px solid black;
     margin: 20px auto;
     background-color: white;
+    
+}
+
+article.carta > h2 {
+    padding: 10px;
+    font-weight: bold;    
+}
+
+article.carta > p {
+    margin: 10px;
+    font-weight: normal;    
 }
 
 div.carta{
