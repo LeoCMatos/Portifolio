@@ -26,6 +26,8 @@ function clickMenu() {
     }
 }
 
+
+if(window.innerWidth <= 768){
 document.addEventListener('click', function(event) {
     var clicadoFora = true;
     var elementos = event.path || (event.composedPath && event.composedPath());
@@ -41,3 +43,4 @@ document.addEventListener('click', function(event) {
       itens.style.display = 'none';
     }
   });
+}
