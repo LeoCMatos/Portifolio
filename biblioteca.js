@@ -22,9 +22,14 @@ function clickMenu() {
     if(itens.style.display == 'block') {
         
         itens.style.display = 'none'
+        circleesquerda.style.display = 'none';
+        circledireita.style.display = 'block'
+        modulo1html.style.display = 'block';
     } else {
         itens.style.display = 'block';
-        
+        circleesquerda.style.display = 'none';
+        circledireita.style.display = 'none'
+        modulo1html.style.display = 'none';
     }
 }
 
@@ -37,6 +42,11 @@ if (window.innerWidth < 768) {
     listaItens.forEach(function(item) {
       item.addEventListener('click', function(event) {
         itens.style.display = 'none';
+        if  (circleesquerda.style.display == 'block') {
+          circledireita.style.display = 'none'
+        } else{
+          circledireita.style.display = 'block'
+        }
       });
     });
   
@@ -53,6 +63,12 @@ if (window.innerWidth < 768) {
   
       if (clicadoFora) {
         itens.style.display = 'none';
+        if  (circleesquerda.style.display == 'block') {
+          circledireita.style.display = 'none'
+        } else{
+          circledireita.style.display = 'block'
+        }
+        
       }
     });
   }
@@ -68,8 +84,11 @@ if (window.innerWidth < 768) {
         circleesquerda.style.display = 'block';
         circledireita.style.display = 'none'
         sectionhtml1.style.width = '100%';
-    }
+     }
+    
   }
+
+
 
  
 if (window.innerWidth < 768) {
