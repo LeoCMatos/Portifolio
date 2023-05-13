@@ -82,12 +82,12 @@ Grandes telas: Acima de 1200px
         position: relative;
         list-style-type: none;
         display: flex;
-        width: 80%; 
+        width: 60%; 
     }
  
     menu#itens > ul{
         display: flex;
-        justify-content: end;
+        justify-content: center;
         width: 100%;
         padding: 10px;
         height: auto;

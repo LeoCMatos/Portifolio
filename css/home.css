@@ -1,5 +1,10 @@
 main#home{
     background-color: var(--cor1);
+    box-shadow: inset 6x 6x 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('../imagens/background.jpg');
+    background-position: right center;
 }
 
 
@@ -54,6 +59,7 @@ div.carta{
 div#imagemcarta1 {
     background-image: url('../imagens/htmlcss-vip-mod1-300x300.jpg');
     background-repeat: no-repeat;
+    background-size: auto;
 }
 
 div#imagemcarta2 {

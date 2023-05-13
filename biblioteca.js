@@ -26,4 +26,18 @@ function clickMenu() {
     }
 }
 
-
+document.addEventListener('click', function(event) {
+    var clicadoFora = true;
+    var elementos = event.path || (event.composedPath && event.composedPath());
+  
+    for (var i = 0; i < elementos.length; i++) {
+      if (elementos[i].id == 'itens' || elementos[i].id == 'burguer') {
+        clicadoFora = false;
+        break;
+      }
+    }
+  
+    if (clicadoFora) {
+      itens.style.display = 'none';
+    }
+  });

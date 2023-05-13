@@ -55,5 +55,7 @@ menu#itens > ul > li > p:hover{
     font-size: 1.2em;
 }
 
-main{
+footer#principal{
+    border: 1px solid black;
 }
+
