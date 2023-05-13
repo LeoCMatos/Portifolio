@@ -1,7 +1,59 @@
-body#cursos{
-    background-color: red;
+main#html1{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
 }
 
-span#voltar{
-    font-size: 3em;
+section#sectionhtml1{
+    background-color: blue;
+
+    width: auto;
 }
+
+div#menumodulo1{
+    width: 100%;
+}
+
+span#circledireita{
+    display: block;
+    font-size: 3em;
+    color: white;
+    padding: 10px;
+}
+
+span#circleesquerda{
+    display: none;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+menu#modulo1html{
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+menu#modulo1html > ul > li{
+    list-style-type: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 2em;
+    background-color: blue;
+}
+
+menu#modulo1html > ul > li:hover{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 2em;
+}
+
+
