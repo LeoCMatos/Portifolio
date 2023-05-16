@@ -63,7 +63,7 @@ div#imagemcarta1 {
 }
 
 div#imagemcarta2 {
-    background-image: url('../imagens/htmlcss-vip-mod3-300x300.jpg');
+    background-image: url('../imagens/htmlcss-vip-mod2-300x300.jpg');
     background-repeat: no-repeat;
 }
 
@@ -74,5 +74,10 @@ div#imagemcarta3 {
 
 div#imagemcarta4 {
     background-image: url('../imagens/htmlcss-mod4-300x300.jpg');
+    background-repeat: no-repeat;
+}
+
+div#imagemcarta5 {
+    background-image: url('../imagens/javascript-300x300.jpg');
     background-repeat: no-repeat;
 }

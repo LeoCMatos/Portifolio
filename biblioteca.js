@@ -3,11 +3,11 @@ function chamarHtml(id, path) {
         .then(response => response.text())
         .then(data => {
             // Inserindo o conteúdo do arquivo HTML no elemento 'conteudo'
-            document.getElementById(id).innerHTML = data;
+            document.getElementById(id).innerHTML = data
         })
         .catch(error => {
-            console.log('Ocorreu um erro:', error);
-        });
+            console.log('Ocorreu um erro:', error)
+        })
 }
 
 function mudouTamanho(){
@@ -21,16 +21,16 @@ function mudouTamanho(){
 function clickMenu() {
     if(itens.style.display == 'block') {   
         itens.style.display = 'none'
-        circleesquerda.style.display = 'none';
+        circleesquerda.style.display = 'none'
         circledireita.style.display = 'block'
-        modulo1html.style.display = 'none';
-        sectionhtml1.style.width = 'auto';
+        modulo1html.style.display = 'none'
+        sectionhtml1.style.width = 'auto'
     } else {
-        itens.style.display = 'block';
-        circleesquerda.style.display = 'none';
+        itens.style.display = 'block'
+        circleesquerda.style.display = 'none'
         circledireita.style.display = 'none'
-        modulo1html.style.display = 'none';
-        sectionhtml1.style.width = 'auto';
+        modulo1html.style.display = 'none'
+        sectionhtml1.style.width = 'auto'
     }
 }
 
@@ -39,39 +39,39 @@ if (window.innerWidth < 768) {
   
     listaItens.forEach(function(item) {
       item.addEventListener('click', function(event) {
-        itens.style.display = 'none';
-      });
-    });
+        itens.style.display = 'none'
+      })
+    })
   
     document.addEventListener('click', function(event) {
-      var clicadoFora = true;
-      var elementos = event.path || (event.composedPath && event.composedPath());
+      var clicadoFora = true
+      var elementos = event.path || (event.composedPath && event.composedPath())
   
       for (var i = 0; i < elementos.length; i++) {
         if (elementos[i].id == 'itens' || elementos[i].id == 'burguer' ) {
-          clicadoFora = false;
-          break;
+          clicadoFora = false
+          break
         }
       }
   
       if (clicadoFora) {
-        itens.style.display = 'none';
+        itens.style.display = 'none'
       }
-    });
+    })
 }
 
 if (window.innerWidth < 768) {
   function clickModulo1html() {
     if (modulo1html.style.display == 'block') {
-        modulo1html.style.display = 'none';
-        circleesquerda.style.display = 'none';
-        circledireita.style.display = 'block';
-        sectionhtml1.style.width = 'auto';
+        modulo1html.style.display = 'none'
+        circleesquerda.style.display = 'none'
+        circledireita.style.display = 'block'
+        sectionhtml1.style.width = 'auto'
     } else {
-        modulo1html.style.display = 'block';
-        circleesquerda.style.display = 'block';
+        modulo1html.style.display = 'block'
+        circleesquerda.style.display = 'block'
         circledireita.style.display = 'none'
-        sectionhtml1.style.width = '100%';
+        sectionhtml1.style.width = '100%'
     }
   }
 }
@@ -79,21 +79,21 @@ if (window.innerWidth < 768) {
 if (window.innerWidth < 768) {
 document.addEventListener('click', function(event) {
   var clicadoFora = true;
-  var elementos = event.path || (event.composedPath && event.composedPath());
+  var elementos = event.path || (event.composedPath && event.composedPath())
 
   for (var i = 0; i < elementos.length; i++) {
     if (elementos[i].id == 'circledireita' ) {
-      clicadoFora = false;
+      clicadoFora = false
       break;
     }
   }
     if (clicadoFora) {
-      modulo1html.style.display = 'none';
-      circleesquerda.style.display = 'none';
+      modulo1html.style.display = 'none'
+      circleesquerda.style.display = 'none'
       if (itens.style.display == 'block'){
-        circledireita.style.display = 'none';
+        circledireita.style.display = 'none'
       } else {
-        circledireita.style.display = 'block';
+        circledireita.style.display = 'block'
       }
     }
   });
