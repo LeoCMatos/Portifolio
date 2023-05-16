@@ -60,7 +60,7 @@ if (window.innerWidth < 768) {
     })
 }
 
-if (window.innerWidth < 768) {
+//if (window.innerWidth < 768) {
   function clickModulo1html() {
     if (modulo1html.style.display == 'block') {
         modulo1html.style.display = 'none'
@@ -74,7 +74,7 @@ if (window.innerWidth < 768) {
         sectionhtml1.style.width = '100%'
     }
   }
-}
+//}
 
 if (window.innerWidth < 768) {
 document.addEventListener('click', function(event) {
