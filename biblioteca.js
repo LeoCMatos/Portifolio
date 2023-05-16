@@ -93,7 +93,7 @@ document.addEventListener('click', function(event) {
       if (itens.style.display == 'block'){
         circledireita.style.display = 'none';
       } else {
-        circledireita.style.display = 'blocki';
+        circledireita.style.display = 'block';
       }
     }
   });
