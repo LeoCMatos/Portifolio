@@ -1,13 +1,24 @@
 
 
-header#headerprincipal{
-    background-color: var(--cor5);
+header{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#container-menu{
+    background-color: black;
     display: flex;
     position: relative;
     flex-wrap: wrap;
+    width: 100%;
+    height: 45px;
+    box-shadow: 1px 1px 8px rgba(82, 82, 82, 0.377);
 }
 
-header#headerprincipal > h1{
+#container-menu > h1{
     font-size: 2em;
     display: block;
     color: white;
@@ -17,15 +28,37 @@ header#headerprincipal > h1{
     width: 80%;
 }
 
-span#burguer{
+#burguer{
     order: 0;
-    display: block;
     color: white;
-    height: auto;
-    width: 10%;
+    width: 100%;
+    height: 5vh;
     padding: 10px;
-    text-align: center;
+    text-align: end;
+    display: block;
+    font-size: 2em;
+    color: rgb(0, 95, 173);
+    text-shadow: rgb(0, 95, 173) 1px 1px 20px;
 }
+
+
+#burguer2{
+    order: 0;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    padding: 10px;
+    text-align: end;
+    display: block;
+    font-size: 2em;
+    color: rgb(0, 95, 173);
+    text-shadow: rgb(0, 95, 173) 1px 1px 20px;
+}
+
+.material-icons:hover{
+    cursor: pointer;
+}
+
 
 span#burguer:hover{
     color: white;
@@ -41,12 +74,12 @@ menu#itens{
     left: 0;
 }
 
-menu#itens > ul > li > p{
+menu#itens > ul#ulprincipal > li > p{
     display: block;
     padding: 10px;
     text-align: start;
     text-decoration: none;
-    background-color: var(--cor5);
+    background-color: black;
     color: white;
 }
 
@@ -59,4 +92,3 @@ menu#itens > ul > li > p:hover{
 footer#principal{
     border: 1px solid;
 }
-

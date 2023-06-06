@@ -1,20 +1,9 @@
-main#home{
-    background-color: var(--cor1);
-    box-shadow: inset 6x 6x 13px 0px black;
-    background-size: cover;
-    background-attachment: fixed;
-    background-image: url('../imagens/background.jpg');
-    background-position: right center;
-}
-
-
-
 main#home > h1{
     text-align: center;
     font-weight: bolder;
     font-size: 2em;
     padding-top: 10px;
-    color: white;
+    color: black;
 }
 
 
@@ -23,9 +12,112 @@ main#home > p{
     font-weight: bolder;
     font-size: 1em;
     padding-bottom: 10px;
-    color: white;
+    color: block;
 }
 
+ /* inicio */
+
+section#inicio{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+section#inicio > h1{
+    width: 100%;
+    font-size: 2em;
+    padding: 5px;
+    display: block;
+}
+
+
+section#inicio > p{
+    width: 100%;
+    font-size: 2em;
+    padding: 5px; 
+    color:rgb(0, 95, 173);
+    text-shadow: rgb(0, 95, 173) 1px 1px 20px;
+}
+
+section#inicio > ul{
+    padding: 5px;
+    display: flex;
+    font-size: 2em;
+}
+
+section#inicio > ul > li > a {
+    color: white;
+    padding: 5px;
+}
+
+section#inicio > ul > li > a:hover {
+    cursor: pointer;
+    color: rgb(0, 95, 173);
+    text-shadow: rgb(0, 95, 173) 1px 1px 20px;
+}
+
+/* Projetos */
+
+section#projetos {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+section#projetos > h1{
+    padding-top: 60px;
+    text-align: center;
+}
+
+div#calculadora{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0F0F0F;
+}
+
+.projetoCarta{
+    margin: auto;
+    width: 320px;
+    height: 400px;
+    padding: 5px;
+    background-color: #0F0F0F;
+    border: 1px solid rgb(0, 95, 173);
+    box-shadow: rgb(0, 95, 173) 1px 1px 20px;
+}
+
+.projetoConteudo{
+    width: 250px;
+    margin: auto;
+}
+
+.projetoConteudo > h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+
+.projetoConteudo > p{
+    font-size: 1.0em;
+}
+
+div#calculadora img{
+    width: 250px;
+    height: 141px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(0, 19, 12);
+    box-shadow: 1px 1px 10px rgba(82, 82, 82, 0.842);
+}
+
+
+/*  */
 section#cursos{
     padding-bottom: 20px;
 }
@@ -34,9 +126,13 @@ article.carta {
     width: 300px;
     height: auto;
     margin: auto;
-    border: 1px solid black;
+    color: black;
     margin: 20px auto;
-    background-color: white;
+   background-color: white;
+}
+
+article.carta:hover{
+    border: 1px solid black;
 }
 
 article.carta > h2 {

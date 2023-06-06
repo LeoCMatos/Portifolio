@@ -8,29 +8,33 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./global.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="css/media-query.css">
+    <link rel="stylesheet" href="./css/media-query.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/home-media-query.css">
     <link rel="stylesheet" href="./css/cursos.css">
     <link rel="stylesheet" href="./css/cursos-media-query.css">
-    
+    <link rel="stylesheet" href="./fontes/fontawesome-free-6.4.0-web/css/all.css">
 </head>
 <body onresize="mudouTamanho()">
     <header id="headerprincipal">
-        <h1>teste</h1>
-        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
-            <menu id="itens">
-                <ul id="ulprincipal">
-                    <li class="liprincipal" onclick="chamarHtml('conteudo','./html/home.html')"><p>Home</p></li>
-                    <li class="liprincipal" onclick="chamarHtml('conteudo','./html/cursos.html')"><p>Cursos</p></li>
-                    <li class="liprincipal" onclick="chamarHtml('conteudo','./html/cursos.html')"><p>Redes Sociais</p></li>
-                    <li class="liprincipal" onclick="chamarHtml('conteudo','./html/cursos.html')"><p>Sobre mim</p></li>
-                </ul>
-            </menu>
+        <div class="background-illumination"></div>
+            <section id="container-menu">
+                <i id="burguer" class="fa-sharp fa-solid fa-bars" onclick="clickMenu()"></i>
+                <i id="burguer2" class="fa-solid fa-xmark" onclick="clickMenu()"></i>
+                    <menu id="itens">
+                        <ul id="ulprincipal">
+                            <li class="liprincipal" onclick="chamarHtml('conteudo','./html/home.html')"><p>Home</p></li>
+                            <li class="liprincipal" onclick="chamarHtml('conteudo','./html/home.html')"><a href="#inicio">Inicio</a></li>
+                            <li class="liprincipal" onclick="chamarHtml('conteudo','./html/home.html')"><a href="#projetos">Projetos</a></li>
+                            <li class="liprincipal" onclick="chamarHtml('conteudo','./html/cursos.html')"><p>Cursos</p></li>
+                            <li class="liprincipal" onclick="chamarHtml('conteudo','./html/cursos.html')"><p>Redes Sociais</p></li>
+                        </ul>
+                    </menu>
+            </section>
+
     </header>
     <main>
         <div id="conteudo"></div> 
-        
     </main>
     <footer id="principal">
         <p>Criado em 2023, criado por Leonardo Camargo Matos</p>

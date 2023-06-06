@@ -9,14 +9,14 @@ Grandes telas: Acima de 1200px
 
 
 @media screen and (min-width: 768px) and (max-width: 992px){
-    header#headerprincipal{
+    #container-menu{
         display: flex;
         width: 100%;
         padding: 10px;
         height: 20%;
     }
 
-    header#headerprincipal > h1{
+    #container-menu > h1{
         display: block;
         position: relative;
         width: auto;        
@@ -60,14 +60,14 @@ Grandes telas: Acima de 1200px
 }
 
 @media screen and (min-width: 992px){
-    header#headerprincipal{
-        display: flex;
+    #container-menu{
+        display: block;
         width: 100%;
         padding: 10px;
         height: 20%;
     }
 
-    header#headerprincipal > h1{
+    #container-menu > h1{
         display: block;
         position: relative;
         width: auto;        
@@ -82,12 +82,12 @@ Grandes telas: Acima de 1200px
         position: relative;
         list-style-type: none;
         display: flex;
-        width: 60%; 
+        width: 100%; 
     }
  
     menu#itens > ul{
         display: flex;
-        justify-content: center;
+        justify-content: end;
         width: 100%;
         padding: 10px;
         height: auto;
@@ -107,6 +107,8 @@ Grandes telas: Acima de 1200px
         font-size: 1em;
         
     }
+
+
     
 }
 
