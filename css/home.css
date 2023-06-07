@@ -145,11 +145,22 @@ section#habilidades > article#logos > i{
     width: 50%;
     text-align: center;
     font-size: 3em;
-    display: block;
+    padding-top: 30px;
+}
+
+section#habilidades > article#logos > p{
+    width: 50%;
+    text-align: center;
+    font-size: 3em;
     padding-top: 30px;
 }
 
 section#habilidades > article#logos > i:hover{
+    color:rgb(0, 95, 173);
+    text-shadow: rgb(0, 95, 173) 1px 1px 20px;
+}
+
+section#habilidades > article#logos > p:hover{
     color:rgb(0, 95, 173);
     text-shadow: rgb(0, 95, 173) 1px 1px 20px;
 }
