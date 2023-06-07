@@ -154,6 +154,15 @@ section#habilidades > article#logos > i:hover{
     text-shadow: rgb(0, 95, 173) 1px 1px 20px;
 }
 
+section#habilidades > article#texto{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+
+    margin: auto;
+    margin-top: 50px;
+}
+
 /*  */
 section#cursos{
     padding-bottom: 20px;
