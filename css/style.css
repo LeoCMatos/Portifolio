@@ -18,15 +18,7 @@ header{
     box-shadow: 1px 1px 8px rgba(82, 82, 82, 0.377);
 }
 
-#container-menu > h1{
-    font-size: 2em;
-    display: block;
-    color: white;
-    order: 1;
-    align-self: center;
-    text-align: center;
-    width: 80%;
-}
+
 
 #burguer{
     order: 0;
@@ -55,13 +47,9 @@ header{
     text-shadow: rgb(0, 95, 173) 1px 1px 20px;
 }
 
-.material-icons:hover{
-    cursor: pointer;
-}
-
-
-span#burguer:hover{
+#burguer:hover, #burguer2:hover{
     color: white;
+    cursor: pointer;
 }
 
 menu#itens{
@@ -72,9 +60,10 @@ menu#itens{
     position: absolute;
     top: 100%;
     left: 0;
+    box-shadow: 1px 1px 8px rgba(82, 82, 82, 0.377);
 }
 
-menu#itens > ul#ulprincipal > li > p{
+menu#itens > ul#ulprincipal > li{
     display: block;
     padding: 10px;
     text-align: start;
@@ -83,10 +72,26 @@ menu#itens > ul#ulprincipal > li > p{
     color: white;
 }
 
-menu#itens > ul > li > p:hover{
-    background-color: var(--cor4);
-    border-bottom: 1px solid white;
+menu#itens > ul#ulprincipal > li > a{
+    display: block;
+    text-align: start;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+menu#itens > ul#ulprincipal > li > a:hover{
     font-size: 1.2em;
+    color: rgb(0, 95, 173);
+    text-shadow: rgb(0, 95, 173) 1px 1px 20px;
+}
+
+menu#itens > ul#ulprincipal > li:hover{
+    border-bottom: 1px solid rgb(0, 95, 173);
+    font-size: 1.2em;
+    color: rgb(0, 95, 173);
+    text-shadow: rgb(0, 95, 173) 1px 1px 20px;
 }
 
 footer#principal{
