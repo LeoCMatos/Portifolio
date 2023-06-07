@@ -87,14 +87,18 @@ section#projetos > h1{
     margin-bottom: 20px;
 }
 
+.projetoCarta:hover{
+    border: 1px solid white;
+    box-shadow: white 1px 1px 20px;
+}
+
 div#imagemProjeto{
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: #3a3a3a25;
-    box-shadow: rgb(0, 95, 173) 1px 1px 20px;
     height: 200px;
 }
+
 
 div#imagemProjeto img{
     width: 250px;
@@ -119,8 +123,36 @@ div#imagemProjeto img{
     font-size: 1.0em;
 }
 
+/* Habilidades */
+section#habilidades{
+    height: 100vh;
+}
 
+section#habilidades > h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 2em;
+}
 
+section#habilidades > article#logos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  
+}
+
+section#habilidades > article#logos > i{
+    width: 50%;
+    text-align: center;
+    font-size: 3em;
+    display: block;
+    padding-top: 30px;
+}
+
+section#habilidades > article#logos > i:hover{
+    color:rgb(0, 95, 173);
+    text-shadow: rgb(0, 95, 173) 1px 1px 20px;
+}
 
 /*  */
 section#cursos{
