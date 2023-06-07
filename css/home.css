@@ -65,8 +65,8 @@ section#inicio > ul > li > a:hover {
 /* Projetos */
 
 section#projetos {
-    height: 100vh;
     width: 100%;
+    display: block;
 }
 
 section#projetos > h1{
@@ -125,7 +125,7 @@ div#imagemProjeto img{
 
 /* Habilidades */
 section#habilidades{
-    height: 100vh;
+    display: block;
 }
 
 section#habilidades > h1{
