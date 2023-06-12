@@ -51,6 +51,7 @@ section#inicio > ul{
     font-size: 2em;
 }
 
+
 section#inicio > ul > li > a {
     color: white;
     padding: 5px;
@@ -58,8 +59,20 @@ section#inicio > ul > li > a {
 
 section#inicio > ul > li > a:hover {
     cursor: pointer;
-    color: rgb(0, 95, 173);
-    text-shadow: rgb(0, 95, 173) 1px 1px 20px;
+}
+
+section#inicio > ul > li > a#github:hover {
+    color:#0F0F0F;  
+    text-shadow: white 1px 1px 20px;
+}
+
+section#inicio > ul > li > a#linkedin:hover {
+    color:#0271AE;  
+}
+
+section#inicio > ul > li > a#curriculo:hover {
+    color:#0F0F0F;  
+    text-shadow: white 1px 1px 20px;
 }
 
 /* Projetos */
@@ -92,21 +105,14 @@ section#projetos > h1{
     box-shadow: white 1px 1px 20px;
 }
 
-div#imagemProjeto{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    height: 200px;
-}
-
-
-div#imagemProjeto img{
-    background-image: url('../imagens/calculadorapequena1.png');
+div#imagemCalculadora{
+    background-image: url('../imagens/calculadora250px.png');
     width: 250px;
     height: 141px;
     margin: auto;
     margin-top: 30px;
 }
+
 
 .projetoConteudo{
     width: 250px;
@@ -156,15 +162,45 @@ section#habilidades > article#logos > p{
     padding-top: 30px;
 }
 
-section#habilidades > article#logos > i:hover{
-    color:rgb(0, 95, 173);
-    text-shadow: rgb(0, 95, 173) 1px 1px 20px;
+section#habilidades > article#logos > i#html:hover{
+    color:#DD4B24;
 }
 
-section#habilidades > article#logos > p:hover{
-    color:rgb(0, 95, 173);
-    text-shadow: rgb(0, 95, 173) 1px 1px 20px;
+section#habilidades > article#logos > i#css:hover{
+    color:#0F6CF7;
 }
+
+section#habilidades > article#logos > i#js:hover{
+    color:#EFD81D;  
+}
+
+section#habilidades > article#logos > i#git:hover{
+    color:#E94D30;  
+}
+
+
+section#habilidades > article#logos > i#github:hover{
+    color:#0F0F0F;  
+    text-shadow: white 1px 1px 20px;
+}
+
+section#habilidades > article#logos > i#angular:hover{
+    color:#DC072A;    
+}
+
+section#habilidades > article#logos > i#db:hover{
+    color:#AAAAAC;     
+}
+
+section#habilidades > article#logos > p#ts:hover{
+    color:#2F74C0;
+}
+
+section#habilidades > article#logos > i#eu:hover{
+    color:#0F0F0F;  
+    text-shadow: white 1px 1px 20px;
+}
+
 
 section#habilidades > article#texto{
     background-color: white;
