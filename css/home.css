@@ -34,6 +34,7 @@ section#inicio > h1{
     font-size: 2em;
     padding: 5px;
     display: block;
+    position: relative;
 }
 
 
@@ -169,7 +170,7 @@ section#habilidades > article#texto{
     background-color: white;
     width: 300px;
     height: 300px;
-
+    color: black;
     margin: auto;
     margin-top: 50px;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,38 +15,46 @@
     <link rel="stylesheet" href="./css/cursos.css">
     <link rel="stylesheet" href="./css/cursos-media-query.css">
     <link rel="stylesheet" href="./fontes/fontawesome-free-6.4.0-web/css/all.css">
+
 </head>
+
 <body onresize="mudouTamanho()">
     <header id="headerprincipal">
         <div class="background-illumination"></div>
-            <section id="container-menu">
-                <i id="burguer" class="fa-sharp fa-solid fa-bars" onclick="clickMenu()"></i>
-                <i id="burguer2" class="fa-solid fa-xmark" onclick="clickMenu()"></i>
-                    <menu id="itens">
-                        <ul id="ulprincipal">
-                            <li class="liprincipal" onclick="chamarHtml('conteudo','./html/home.html')"><p>Home</p></li>
-                            <li class="liprincipal" onclick="chamarHtml('conteudo','./html/home.html')"><a href="#inicio">Inicio</a></li>
-                            <li class="liprincipal" onclick="chamarHtml('conteudo','./html/home.html')"><a href="#projetos">Projetos</a></li>
-                            <li class="liprincipal" onclick="chamarHtml('conteudo','./html/home.html')"><a href="#habilidades">Habilidades</a></li>
-                            <li class="liprincipal" onclick="chamarHtml('conteudo','./html/cursos.html')"><p>Cursos</p></li>
-                            <li class="liprincipal" onclick="chamarHtml('conteudo','./html/cursos.html')"><p>Redes Sociais</p></li>
-                        </ul>
-                    </menu>
-            </section>
+        <section id="container-menu">
+            <i id="burguer" class="fa-sharp fa-solid fa-bars" onclick="clickMenu()"></i>
+            <i id="burguer2" class="fa-solid fa-xmark" onclick="clickMenu()"></i>
+            <menu id="itens">
+                <ul id="ulprincipal">
+                    <li class="liprincipal" onclick="chamarHtml('conteudo','./html/home.html')">
+                        <p>Home</p>
+                    </li>
+                    <li class="liprincipal" onclick="chamarHtml('conteudo','./html/home.html')"><a
+                            href="#inicio">Inicio</a></li>
+                    <li class="liprincipal" onclick="chamarHtml('conteudo','./html/home.html')"><a
+                            href="#projetos">Projetos</a></li>
+                    <li class="liprincipal" onclick="chamarHtml('conteudo','./html/home.html')"><a
+                            href="#habilidades">Habilidades</a></li>
+                    <li class="liprincipal" onclick="chamarHtml('conteudo','./html/cursos.html')">
+                        <p>Cursos</p>
+                    </li>
+                    <li class="liprincipal" onclick="chamarHtml('conteudo','./html/cursos.html')">
+                        <p>Redes Sociais</p>
+                    </li>
+                </ul>
+            </menu>
+        </section>
 
     </header>
     <main>
-        <div id="conteudo"></div> 
+        <div id="conteudo"></div>
     </main>
     <footer id="principal">
         <p>Criado em 2023, criado por Leonardo Camargo Matos</p>
     </footer>
 
-      
     <script src="biblioteca.js"></script>
-    <script id="tela">
-        chamarHtml('conteudo', './html/home.html');
-    </script>
-
+    <script src="index.js"></script>
 </body>
+
 </html>
