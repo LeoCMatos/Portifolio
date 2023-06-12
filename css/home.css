@@ -101,6 +101,7 @@ div#imagemProjeto{
 
 
 div#imagemProjeto img{
+    background-image: url('../imagens/calculadorapequena1.png');
     width: 250px;
     height: 141px;
     margin: auto;
