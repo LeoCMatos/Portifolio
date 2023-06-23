@@ -132,6 +132,14 @@ div#imagemCalculadora{
 
 .projetoConteudo > p{
     font-size: 1.0em;
+    height: 140px;
+    text-align: justify;
+}
+
+.projetoConteudo > p#status{
+    color: rgb(0, 95, 173);
+    text-align: end;
+
 }
 
 /* Habilidades */
@@ -142,6 +150,7 @@ section#habilidades{
 section#habilidades > h1{
     padding-top: 50px;
     text-align: center;
+    
     font-size: 2em;
 }
 
@@ -217,13 +226,16 @@ section#habilidades > article#texto{
     color: white;
     margin: auto;
     margin-top: 50px;
+    text-align: justify;
 }
+
 
 /*  */
 
 .escritacursos{
     text-align: center;
     width: 100%;
+    padding: 10px;
 }
 
 h1.escritacursos{
