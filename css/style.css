@@ -82,14 +82,12 @@ menu#itens > ul#ulprincipal > li > a{
 }
 
 menu#itens > ul#ulprincipal > li > a:hover{
-    font-size: 1.2em;
     color: rgb(0, 95, 173);
     text-shadow: rgb(0, 95, 173) 1px 1px 20px;
 }
 
 menu#itens > ul#ulprincipal > li:hover{
     border-bottom: 1px solid rgb(0, 95, 173);
-    font-size: 1.2em;
     color: rgb(0, 95, 173);
     text-shadow: rgb(0, 95, 173) 1px 1px 20px;
 }

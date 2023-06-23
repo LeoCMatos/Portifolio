@@ -77,12 +77,12 @@ section#inicio > ul > li > a#curriculo:hover {
 
 /* Projetos */
 
-section#projetos {
+div#projetos {
     width: 100%;
     display: block;
 }
 
-section#projetos > h1{
+div#projetos > h1{
     padding-top: 50px;
     margin-bottom: 15px;
     text-align: center;
@@ -145,7 +145,6 @@ section#habilidades > article#logos{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-  
 }
 
 section#habilidades > article#logos > i{
@@ -187,6 +186,12 @@ section#habilidades > article#logos > i#github:hover{
 section#habilidades > article#logos > i#angular:hover{
     color:#DC072A;    
 }
+
+
+section#habilidades > article#logos > i#bootstrap:hover{
+    color:#8312FB;    
+}
+
 
 section#habilidades > article#logos > i#db:hover{
     color:#AAAAAC;     

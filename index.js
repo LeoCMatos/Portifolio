@@ -32,6 +32,9 @@ chamarHtml('conteudo', './html/home.html', () => {
             case 'angular':
                 texto.innerHTML = 'texto angular'
             return
+            case 'bootstrap':
+                texto.innerHTML = 'texto bootstrap'
+            return
             case 'db':
                 texto.innerHTML = 'texto db'
             return

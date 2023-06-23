@@ -6,6 +6,26 @@ Desktop:    993 até 1200px
 Grandes telas: Acima de 1200px
 */
 
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    section#habilidades > article#logos{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+    }
+
+    section#habilidades > article#logos > i{
+        width: 10%;
+    }
+
+    section#habilidades > article#logos > p{
+        width: 10%;
+    }
+
+}
+
 @media screen and (min-width: 992px){
     section#cursos{
         min-width: 800px;
@@ -14,4 +34,6 @@ Grandes telas: Acima de 1200px
         display: flex;
         flex-wrap: wrap;
     }
+
+
 }

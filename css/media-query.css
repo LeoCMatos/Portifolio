@@ -23,20 +23,23 @@ Grandes telas: Acima de 1200px
         width: 20%;
     }
 
-    span#burguer{
+    i#burguer{
+        display: none;
+    }
+
+    i#burguer2{
         display: none;
     }
 
     menu#itens{
         position: relative;
         list-style-type: none;
-        display: flex;
-        width: 80%; 
+        box-shadow: none;
     }
  
     menu#itens > ul{
         display: flex;
-        justify-content: end;
+        justify-content: center;
         width: 100%;
         padding: 10px;
         height: auto;
@@ -74,24 +77,30 @@ Grandes telas: Acima de 1200px
         width: 20%;
     }
 
-    span#burguer{
+    i#burguer{
         display: none;
     }
+
+    i#burguer2{
+        display: none;
+    }
+
 
     menu#itens{
         position: relative;
         list-style-type: none;
-        display: flex;
-        width: 100%; 
+        box-shadow: none;
     }
  
     menu#itens > ul{
         display: flex;
-        justify-content: end;
+        justify-content: center;
         width: 100%;
         padding: 10px;
         height: auto;
     }
+
+
 
     menu#itens > ul > li{
         display: inline-block;
