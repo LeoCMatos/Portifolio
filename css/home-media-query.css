@@ -35,5 +35,18 @@ Grandes telas: Acima de 1200px
         flex-wrap: wrap;
     }
 
+    section#habilidades > article#logos{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+    }
 
+    section#habilidades > article#logos > i{
+        width: 10%;
+    }
+
+    section#habilidades > article#logos > p{
+        width: 10%;
+    }
 }
