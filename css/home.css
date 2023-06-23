@@ -82,6 +82,7 @@ div#projetos {
     display: block;
 }
 
+
 div#projetos > h1{
     padding-top: 50px;
     margin-bottom: 15px;
@@ -89,9 +90,12 @@ div#projetos > h1{
     font-size: 2em;
 }
 
-.projetoCarta{
-    margin: auto;
+div#projetos > section{
     width: 300px;
+    margin: auto;
+}
+
+.projetoCarta{
     height: 400px;
     padding: 5px;
     background-color: #0F0F0F;

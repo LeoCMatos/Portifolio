@@ -22,8 +22,14 @@ function mudouTamanho() {
   }
 }
 
+if (window.innerWidth >= 768) {
+  itens.style.display = 'block'
+} else {
+  itens.style.display = 'none'
+}
+
 function clickMenu() {
-  if (itens.style.display == 'block') {
+  if (itens.style.display == 'block' && window.innerWidth <= 768) {
     burguer.style.display = 'block'
     burguer2.style.display = 'none'
     itens.style.display = 'none'
