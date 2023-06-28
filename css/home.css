@@ -1,20 +1,3 @@
-main#home > h1{
-    text-align: center;
-    font-weight: bolder;
-    font-size: 2em;
-    padding-top: 10px;
-    color: black;
-}
-
-
-main#home > p{
-    text-align: center;
-    font-weight: bolder;
-    font-size: 1em;
-    padding-bottom: 10px;
-    color: block;
-}
-
  /* inicio */
 
 section#inicio{
@@ -77,25 +60,18 @@ section#inicio > ul > li > a#curriculo:hover {
 
 /* Projetos */
 
-div#projetos {
+div#containerprojetos {
     width: 100%;
     display: block;
 }
 
-
-div#projetos > h1{
-    padding-top: 50px;
-    margin-bottom: 15px;
-    text-align: center;
-    font-size: 2em;
-}
-
-div#projetos > section{
+div#containerprojetos > section{
     width: 300px;
     margin: auto;
 }
 
 .projetoCarta{
+    border-radius: 16px;
     height: 400px;
     padding: 5px;
     background-color: #0F0F0F;
@@ -127,100 +103,100 @@ div#imagemCalculadora{
     padding-top: 10px;
     font-size: 2em;
     margin-bottom: 10px;
+    color:rgb(0, 95, 173);
+    text-shadow: rgb(0, 95, 173) 1px 1px 20px;
 }
 
 
 .projetoConteudo > p{
     font-size: 1.0em;
     height: 140px;
-    text-align: justify;
 }
 
-.projetoConteudo > p#status{
-    color: rgb(0, 95, 173);
+.projetoConteudo > p.desenvolvimento{
+    color: #DC072A;
     text-align: end;
-
 }
 
 /* Habilidades */
-section#habilidades{
+section#containerhabilidades{
     display: block;
 }
 
-section#habilidades > h1{
+section#containerhabilidades > h1{
     padding-top: 50px;
     text-align: center;
     
     font-size: 2em;
 }
 
-section#habilidades > article#logos{
+section#containerhabilidades > article#logos{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
 
-section#habilidades > article#logos > i{
+section#containerhabilidades > article#logos > i{
     width: 50%;
     text-align: center;
     font-size: 3em;
     padding-top: 30px;
 }
 
-section#habilidades > article#logos > p{
+section#containerhabilidades > article#logos > p{
     width: 50%;
     text-align: center;
     font-size: 3em;
     padding-top: 30px;
 }
 
-section#habilidades > article#logos > i#html:hover{
+section#containerhabilidades > article#logos > i#html:hover{
     color:#DD4B24;
 }
 
-section#habilidades > article#logos > i#css:hover{
+section#containerhabilidades > article#logos > i#css:hover{
     color:#0F6CF7;
 }
 
-section#habilidades > article#logos > i#js:hover{
+section#containerhabilidades > article#logos > i#js:hover{
     color:#EFD81D;  
 }
 
-section#habilidades > article#logos > i#git:hover{
+section#containerhabilidades > article#logos > i#git:hover{
     color:#E94D30;  
 }
 
 
-section#habilidades > article#logos > i#github:hover{
+section#containerhabilidades > article#logos > i#github:hover{
     color:#0F0F0F;  
     text-shadow: white 1px 1px 20px;
 }
 
-section#habilidades > article#logos > i#angular:hover{
+section#containerhabilidades > article#logos > i#angular:hover{
     color:#DC072A;    
 }
 
 
-section#habilidades > article#logos > i#bootstrap:hover{
+section#containerhabilidades > article#logos > i#bootstrap:hover{
     color:#8312FB;    
 }
 
 
-section#habilidades > article#logos > i#db:hover{
+section#containerhabilidades > article#logos > i#db:hover{
     color:#AAAAAC;     
 }
 
-section#habilidades > article#logos > p#ts:hover{
+section#containerhabilidades > article#logos > p#ts:hover{
     color:#2F74C0;
 }
 
-section#habilidades > article#logos > i#eu:hover{
+section#containerhabilidades > article#logos > i#eu:hover{
     color:#0F0F0F;  
     text-shadow: white 1px 1px 20px;
 }
 
 
-section#habilidades > article#texto{
+section#containerhabilidades > article#texto{
     width: 300px;
     height: 300px;
     color: white;
@@ -232,21 +208,6 @@ section#habilidades > article#texto{
 
 /*  */
 
-.escritacursos{
-    text-align: center;
-    width: 100%;
-    padding: 10px;
-}
-
-h1.escritacursos{
-    font-size: 2em;
-    color:rgb(0, 95, 173);
-    text-shadow: rgb(0, 95, 173) 1px 1px 20px;
-}
-
-p.escritacursos{
-    font-size: 1.5em;
-}
 
 section#cursos{
     padding-bottom: 20px;
@@ -261,9 +222,6 @@ article.carta {
    background-color: white;
 }
 
-article.carta:hover{
-    border: 1px solid black;
-}
 
 article.carta > h2 {
     padding: 10px;

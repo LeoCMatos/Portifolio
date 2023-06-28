@@ -92,6 +92,20 @@ menu#itens > ul#ulprincipal > li:hover{
     text-shadow: rgb(0, 95, 173) 1px 1px 20px;
 }
 
+
+
+
+
+.titulosessao{
+    padding-top: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2em;
+    color: #EFD81D;
+    text-shadow: #EFD81D 1px 1px 20px;
+}
+
+
 footer#principal{
     box-shadow: 1px 1px 8px rgba(82, 82, 82, 0.377);
     font-size: 0.5em;

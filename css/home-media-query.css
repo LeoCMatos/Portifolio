@@ -23,7 +23,11 @@ Grandes telas: Acima de 1200px
     section#habilidades > article#logos > p{
         width: 10%;
     }
-
+    
+    div#projetos {
+        width: 100%;
+        display: flex;
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -49,4 +53,11 @@ Grandes telas: Acima de 1200px
     section#habilidades > article#logos > p{
         width: 10%;
     }
+
+    div#projetos {
+        width: 100%;
+        display: flex;
+    }
+
+
 }
