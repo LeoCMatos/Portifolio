@@ -31,6 +31,8 @@ Grandes telas: Acima de 1200px
 }
 
 @media screen and (min-width: 992px){
+
+
     section#cursos{
         min-width: 800px;
         max-width: 1000px;

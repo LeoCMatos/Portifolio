@@ -60,9 +60,12 @@ section#inicio > ul > li > a#curriculo:hover {
 
 /* Projetos */
 
+
+
 div#containerprojetos {
     width: 100%;
     display: block;
+    padding-bottom: 30px;
 }
 
 div#containerprojetos > section{
