@@ -9,18 +9,18 @@ Grandes telas: Acima de 1200px
 
 @media screen and (min-width: 768px) and (max-width: 992px){
 
-    section#habilidades > article#logos{
+    section#containerhabilidades > article#logos{
         display: flex;
         flex-wrap: wrap;
         width: 80%;
         margin: auto;
     }
 
-    section#habilidades > article#logos > i{
+    section#containerhabilidades > article#logos > i{
         width: 10%;
     }
 
-    section#habilidades > article#logos > p{
+    section#containerhabilidades > article#logos > p{
         width: 10%;
     }
     
@@ -39,25 +39,26 @@ Grandes telas: Acima de 1200px
         flex-wrap: wrap;
     }
 
-    section#habilidades > article#logos{
+    section#containerhabilidades > article#logos{
         display: flex;
         flex-wrap: wrap;
         width: 80%;
         margin: auto;
     }
 
-    section#habilidades > article#logos > i{
+    section#containerhabilidades > article#logos > i{
         width: 10%;
     }
 
-    section#habilidades > article#logos > p{
+    section#containerhabilidades > article#logos > p{
         width: 10%;
     }
 
-    div#projetos {
-        width: 100%;
+    div#containerprojetos {
+        min-width: 800px;
+        max-width: 1000px;
+        margin: auto;
         display: flex;
+        flex-wrap: wrap;
     }
-
-
 }
