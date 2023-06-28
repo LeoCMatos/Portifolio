@@ -116,6 +116,13 @@ div#imagemCalculadora{
     height: 140px;
 }
 
+
+
+.projetoConteudo > p.concluido{
+    color: green;
+    text-align: end;
+}
+
 .projetoConteudo > p.desenvolvimento{
     color: #DC072A;
     text-align: end;
@@ -209,7 +216,7 @@ section#containerhabilidades > article#texto{
 }
 
 
-/*  */
+/* cursos  */
 
 
 section#cursos{
@@ -223,6 +230,7 @@ article.carta {
     color: black;
     margin: 20px auto;
    background-color: white;
+   border-radius: 16px;
 }
 
 
@@ -241,9 +249,13 @@ div.carta{
     width: 300px;
     height: 300px;
     border-bottom: 1px solid black;
+    border-top-right-radius: 16px;
 }
 
+
+
 div#imagemcarta1 {
+    
     background-image: url('../imagens/htmlcss-vip-mod1-300x300.jpg');
     background-repeat: no-repeat;
     background-size: auto;
