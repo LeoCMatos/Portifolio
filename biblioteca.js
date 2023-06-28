@@ -17,9 +17,15 @@ function chamarHtml(id, path, callback = () => {}) {
 function mudouTamanho() {
   if (window.innerWidth >= 768) {
     itens.style.display = 'block'
+    burguer.style.display = 'none'
+    burguer2.style.display = 'none'
   } else {
     itens.style.display = 'none'
+    burguer.style.display = 'block'
+    burguer2.style.display = 'none'
   }
+
+
 }
 
 if (window.innerWidth >= 768) {
