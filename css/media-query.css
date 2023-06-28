@@ -112,11 +112,6 @@ Grandes telas: Acima de 1200px
     }
     
 
-    menu#itens > ul > li > p:hover{ 
-        font-size: 1em;
-        
-    }
-
     .titulosessao{
         padding-top: 90px;
         padding-bottom: 50px;
