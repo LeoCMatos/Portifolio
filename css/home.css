@@ -58,6 +58,29 @@ section#inicio > ul > li > a#curriculo:hover {
     text-shadow: white 1px 1px 20px;
 }
 
+/* sobre mim */
+
+div#sobremim{
+    padding-bottom: 50px;
+}
+
+section#sobremim{
+    background-color: white;
+    margin: auto;
+    width: 85%;
+    color: black;
+    border-radius: 16px;
+    font-size: 1.3em;
+    border: 1px solid rgb(0, 95, 173);
+    box-shadow: rgb(0, 95, 173) 1px 1px 20px;
+}
+
+section#sobremim > p{
+    padding: 20px;
+    text-align: justify;
+}
+
+
 /* Projetos */
 
 
@@ -279,4 +302,17 @@ div#imagemcarta4 {
 div#imagemcarta5 {
     background-image: url('../imagens/javascript-300x300.jpg');
     background-repeat: no-repeat;
+}
+
+/* contato */
+
+div#contato > section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div#contato > section > article{
+    width: 30%;
+    text-align: center;
+    margin: auto;
 }

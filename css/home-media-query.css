@@ -63,4 +63,17 @@ Grandes telas: Acima de 1200px
         display: flex;
         flex-wrap: wrap;
     }
+
+    
+/* sobre mim */
+
+    section#sobremim{
+        min-width: 800px;
+        max-width: 1000px;
+    }
+
+    section#sobremim > p{
+        padding: 15px;
+        text-align: justify;
+    }
 }
