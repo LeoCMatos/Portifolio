@@ -306,13 +306,24 @@ div#imagemcarta5 {
 
 /* contato */
 
+div#contato{
+    padding-bottom: 30px;
+}
+
 div#contato > section{
     display: flex;
     flex-wrap: wrap;
 }
 
 div#contato > section > article{
-    width: 30%;
+    width: 50%;
     text-align: center;
     margin: auto;
+    height: 60px;
+    padding: 3px;
+}
+
+article.contatos{
+    color:rgb(0, 95, 173);
+    text-shadow: rgb(0, 95, 173) 1px 1px 20px;
 }
