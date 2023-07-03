@@ -316,10 +316,10 @@ div#contato > section{
 }
 
 div#contato > section > article{
-    width: 50%;
+    width: auto;
     text-align: center;
     margin: auto;
-    height: 60px;
+    height: 80px;
     padding: 3px;
 }
 
