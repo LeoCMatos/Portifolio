@@ -86,15 +86,11 @@ menu#itens > ul#ulprincipal > li:hover{
     border-bottom: 1px solid rgb(0, 95, 173);
 }
 
-
-
-
-
 .titulosessao{
     padding-top: 50px;
     margin-bottom: 15px;
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     color: #EFD81D;
     text-shadow: #EFD81D 1px 1px 20px;
     width: 100%;

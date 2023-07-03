@@ -1,6 +1,7 @@
  /* inicio */
 
-section#inicio{
+
+section#inicio > article{
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -12,7 +13,7 @@ section#inicio{
 }
 
 
-section#inicio > h1{
+section#inicio > article > h1{
     width: 100%;
     font-size: 2em;
     padding: 5px;
@@ -20,7 +21,7 @@ section#inicio > h1{
 }
 
 
-section#inicio > p{
+section#inicio > article > p{
     width: 100%;
     font-size: 2em;
     padding: 5px; 
@@ -28,32 +29,32 @@ section#inicio > p{
     text-shadow: rgb(0, 95, 173) 1px 1px 20px;
 }
 
-section#inicio > ul{
+section#inicio > article > ul{
     padding: 5px;
     display: flex;
     font-size: 2em;
 }
 
 
-section#inicio > ul > li > a {
+section#inicio > article > ul > li > a {
     color: white;
     padding: 5px;
 }
 
-section#inicio > ul > li > a:hover {
+section#inicio > article > ul > li > a:hover {
     cursor: pointer;
 }
 
-section#inicio > ul > li > a#github:hover {
+section#inicio > article > ul > li > a#github:hover {
     color:#0F0F0F;  
     text-shadow: white 1px 1px 20px;
 }
 
-section#inicio > ul > li > a#linkedin:hover {
+section#inicio > article > ul > li > a#linkedin:hover {
     color:#0271AE;  
 }
 
-section#inicio > ul > li > a#curriculo:hover {
+section#inicio > article > ul > li > a#curriculo:hover {
     color:#0F0F0F;  
     text-shadow: white 1px 1px 20px;
 }
@@ -316,11 +317,15 @@ div#contato > section{
 }
 
 div#contato > section > article{
-    width: auto;
     text-align: center;
     margin: auto;
     padding: 3px;
 }
+
+div#contato > section > article > h2{
+    padding-bottom: 15px;
+}
+
 
 article.contatos{
     color:rgb(0, 95, 173);

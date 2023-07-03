@@ -37,6 +37,13 @@ Grandes telas: Acima de 1200px
 @media screen and (min-width: 992px){
 
 
+    img#angularimagem{
+        display: block;
+        width: 500px;
+        height: 500px;
+        margin: auto;
+    }
+
     section#cursos{
         min-width: 800px;
         max-width: 1000px;
@@ -45,19 +52,26 @@ Grandes telas: Acima de 1200px
         flex-wrap: wrap;
     }
 
+    section#containerhabilidades{
+        display: flex;
+        margin: auto;
+        width: 1000px;
+        padding-bottom: 50px;
+        font-size: 1.3em;
+    }
+
     section#containerhabilidades > article#logos{
         display: flex;
         flex-wrap: wrap;
-        width: 80%;
-        margin: auto;
+        width: 50%;
     }
 
     section#containerhabilidades > article#logos > i{
-        width: 10%;
+        width: 50%;
     }
 
     section#containerhabilidades > article#logos > p{
-        width: 10%;
+        width: 50%;
     }
 
     div#containerprojetos {
@@ -72,16 +86,31 @@ Grandes telas: Acima de 1200px
 /* sobre mim */
 
     section#sobremim{
-        min-width: 800px;
-        max-width: 1000px;
+        width: 1000px;
     }
 
     section#sobremim > p{
         padding: 15px;
         text-align: justify;
+        text-indent: 50px;
     }
 
-    div#contato > section > article{
-        width: 30%;
-    }
+        /* contatos */
+        div#contato > section{
+            width: 900px;
+            margin: auto;
+        }
+
+        div#contato > section > article{
+            width: 33%;
+            font-size: 1.3em;
+        }
+
+
+        div#contato > section > article > p > a:hover{
+            color: rgb(0, 95, 173);
+            text-shadow: rgb(0, 95, 173) 1px 1px 20px;
+            cursor: pointer;
+        }
+        
 }
