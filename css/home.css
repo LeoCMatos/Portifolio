@@ -319,11 +319,11 @@ div#contato > section > article{
     width: auto;
     text-align: center;
     margin: auto;
-    height: 80px;
     padding: 3px;
 }
 
 article.contatos{
     color:rgb(0, 95, 173);
     text-shadow: rgb(0, 95, 173) 1px 1px 20px;
+    display: block;
 }
