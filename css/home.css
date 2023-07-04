@@ -101,10 +101,12 @@ div#containerprojetos > section{
     border-radius: 16px;
     height: 400px;
     padding: 5px;
-    background-color: #0F0F0F;
     border: 1px solid rgb(0, 95, 173);
     box-shadow: rgb(0, 95, 173) 1px 1px 20px;
     margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .projetoCarta:hover{
@@ -115,7 +117,7 @@ div#containerprojetos > section{
 div#imagemCalculadora{
     background-image: url('../imagens/calculadora250px.png');
     width: 250px;
-    height: 141px;
+    height: 140px;
     margin: auto;
     margin-top: 30px;
 }
@@ -127,28 +129,55 @@ div#imagemCalculadora{
 }
 
 .projetoConteudo > h2{
+    width: 100%;
     padding-top: 10px;
     font-size: 2em;
     margin-bottom: 10px;
     color:rgb(0, 95, 173);
     text-shadow: rgb(0, 95, 173) 1px 1px 20px;
+    text-align: center;
 }
 
 
-.projetoConteudo > p{
+
+
+.projetoConteudo > p.descricao{
     font-size: 1.0em;
     height: 140px;
+    display: block;
+}
+
+strong.carta{
+    text-decoration: underline;
+    color: lightgreen;
+}
+
+div.inferiorConteudo {
+    width: 250px;
+    display: flex;
 }
 
 
+div.inferiorConteudo > a{
+    color: rgb(114, 91, 245);
+    width: 40%;
+    align-items: end;
+}
 
-.projetoConteudo > p.concluido{
+div.inferiorConteudo > a:hover{
+    color: rgba(88, 255, 66, 0.63);
+
+}
+
+p.concluido{
     color: green;
+    width: 60%;
     text-align: end;
 }
 
-.projetoConteudo > p.desenvolvimento{
+p.desenvolvimento{
     color: #DC072A;
+    width: 60%;
     text-align: end;
 }
 
