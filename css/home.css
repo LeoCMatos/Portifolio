@@ -97,13 +97,16 @@ section#sobremim > p{
     margin: 20px auto;
     border: 1px solid rgb(0, 95, 173);
     box-shadow: rgb(0, 95, 173) 1px 1px 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .configImagensProjeto{
     width: 250px;
-    height: 130px;
+    height: 140px;
     margin: auto;
     margin-top: 30px;
+    display: block;
 }
 
 div#imagemCalculadora{
@@ -119,9 +122,16 @@ div#imagemTarefas{
 }
 
 
+.superiorConteudo{
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
 .projetoConteudo{
     width: 250px;
-    margin: auto;
+    justify-content: center;
 }
 
 .projetoConteudo > h2{
@@ -138,9 +148,8 @@ div#imagemTarefas{
 
 
 .projetoConteudo > p.descricao{
+    width: 250px;
     font-size: 1.0em;
-    height: 140px;
-    display: block;
 }
 
 strong.carta{
@@ -158,7 +167,6 @@ div.inferiorConteudo {
 div.inferiorConteudo > a{
     color: rgb(114, 91, 245);
     width: 40%;
-    align-items: end;
 }
 
 div.inferiorConteudo > a:hover{
