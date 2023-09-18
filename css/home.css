@@ -62,7 +62,7 @@ section#inicio > article > ul > li > a#curriculo:hover {
 /* sobre mim */
 
 #container-sobremim{
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #title-sobremim{
