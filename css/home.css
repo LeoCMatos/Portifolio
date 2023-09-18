@@ -119,6 +119,10 @@ section#sobremim > p{
     display: block;
 }
 
+div#imagemHamburgueria{
+    background-image: url('../imagens/hamburgueria.png');
+}
+
 div#imagemCalculadora{
     background-image: url('../imagens/calculadora250px.png');
 }
