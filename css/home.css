@@ -120,7 +120,7 @@ section#sobremim > p{
 }
 
 div#imagemHamburgueria{
-    background-image: url('../imagens/hamburgueria.png');
+    background-image: url('https://github.com/LeoCMatos/Portifolio/blob/main/imagens/hamburgueria.png');
 }
 
 div#imagemCalculadora{
